@@ -49,7 +49,7 @@ function SearchHeader() {
         </form>
         <ul className="flex space-x-4 items-center ml-auto">
           <li>
-            <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-200 cursor-pointer " />
+            <ViewGridIcon className="hidden sm:inline-flex h-10 w-10 p-2 rounded-full hover:bg-gray-200 cursor-pointer " />
           </li>
           <li className="cursor-pointer ">
             <Avatar url="/csalam.jpeg" />

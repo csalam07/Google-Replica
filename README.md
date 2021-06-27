@@ -1,3 +1,10 @@
+# Live Demo : [Google Replica](google-replica-sepia.vercel.app)
+
+# ScreenShots : 
+![homepage](https://user-images.githubusercontent.com/66422819/123554444-b9170e80-d79f-11eb-896b-1888dc104f1f.png)
+![resultpage](https://user-images.githubusercontent.com/66422819/123554447-bcaa9580-d79f-11eb-9528-8519ae32e5d4.png)
+
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).

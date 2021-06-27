@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply hover:underline;
+  }
+  .btn {
+    @apply bg-[#f8f9fa] p-3 mb-2 rounded-md ring-gray-200 active:ring-gray-300 text-sm text-gray-800 hover:ring-1 focus:outline-none hover:shadow-md;
+  }
+  .icon {
+    @apply h-5 ml-5 text-blue-500 hover:cursor-pointer;
+  }
+  .header__option {
+    @apply border-b-4 border-transparent pb-3 hover:border-blue-500 hover:text-blue-500;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #edf2f7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 100vh;
+  border: 3px solid #edf2f7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}

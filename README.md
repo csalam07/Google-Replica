@@ -1,4 +1,4 @@
-# Live Demo : [Google Replica](google-replica-sepia.vercel.app)
+# Live Demo : [Google Replica](https://google-replica-2uu54ul6f-csalam07.vercel.app/)
 
 # ScreenShots : 
 ![homepage](https://user-images.githubusercontent.com/66422819/123554444-b9170e80-d79f-11eb-896b-1888dc104f1f.png)

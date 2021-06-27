@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import { MicrophoneIcon, SearchIcon } from "@heroicons/react/outline";
-// import Image from "next/image";
+import Image from "next/image";
 import { useRouter } from "next/dist/client/router";
-import LottieFiles from "./LottieFiles";
+// import LottieFiles from "./LottieFiles";
 
 function Body() {
   const router = useRouter();
@@ -16,8 +16,8 @@ function Body() {
   };
   return (
     <form className="flex flex-col items-center mt-[84px] flex-grow w-4/5">
-      {/* <Image src="/logo.png" width="300" height="200" objectFit="contain" /> */}
-      <LottieFiles />
+      <Image src="/logo.png" width="300" height="200" objectFit="contain" />
+      {/* <LottieFiles /> */}
       <div className="flex items-center w-full max-w-md sm:max-w-xl lg:max-w-2xl rounded-full px-5 py-2 border border-gray-200 hover:shadow-lg focus-within:shadow-lg">
         <SearchIcon className="h-5 mr-3 text-gray-500" />
         <input

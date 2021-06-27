@@ -38,6 +38,7 @@ function SearchHeader() {
               type="search"
               placeholder="search"
               ref={searchInputRef}
+              defaultValue={router.query.term}
             />
             <MicrophoneIcon className="icon border-l-2 border-gray-300 pl-3" />
             <SearchIcon className="icon" />

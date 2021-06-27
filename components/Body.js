@@ -22,7 +22,7 @@ function Body() {
         <SearchIcon className="h-5 mr-3 text-gray-500" />
         <input
           className="focus:outline-none flex-grow"
-          type="search"
+          type="text"
           placeholder="search"
           ref={searchInputRef}
         />
